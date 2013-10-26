@@ -1,0 +1,13 @@
+Project_PhaseOne consists of:
+
+** project_phase1.l:
+This file contains all lex specifications and declare various tokens. These tokens are provided to the parser when asked.
+
+** project_phase1.y:
+This file contains grammer rules as specified by the project statement. It also has a  main function that opens the .c file and read it. Then it asks for token from the lexical analyzer and checks whether the program can be parsed successfully or not.
+
+Also, errors are notified by the parser and lexical analyzer along with the line numbers.
+
+Compilation Instructions:
+			 a) Run command "make"
+			 b) Run command "./201101101_project <c-file-name>"
